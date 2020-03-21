@@ -12,6 +12,8 @@
     "codeceptjs": "^2.5.0",
     "puppeteer": "^2.1.1"
   },
-  "dependencies": {},
+  "dependencies": {
+    "puppeteer-firefox": "^0.5.1"
+  },
   "description": ""
 }

@@ -9,8 +9,13 @@ exports.config = {
   output: './output',
   helpers: {
     Puppeteer: {
-      url: 'www.sjob-dev.ru',
-      show: true
+      url: 'https://github.com',
+      show: true,
+      chrome: {
+        args: [
+          "--incognito"
+        ]
+      }
     }
   },
   include: {
